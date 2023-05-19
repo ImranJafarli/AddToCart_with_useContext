@@ -1,0 +1,21 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 0 auto;
+    row-gap: 20px;
+    background-color: blueviolet;
+    padding: 45px;
+    border-radius: 12px;
+    align-content: center;
+    margin-top: 100px;
+    .form-box {
+        display: flex;
+        column-gap: 10px;
+        input {
+            padding: 10px;
+            border-radius: 10px;
+        }
+    }
+}
+
